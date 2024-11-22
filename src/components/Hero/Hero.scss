@@ -1,0 +1,59 @@
+.hero__box{
+   
+
+    margin-top: 70px;
+
+       h1{
+font-size: 70px;
+font-weight:7000 ;
+margin-left: 400px;
+       }
+
+    
+
+
+.hero__text{
+    color: gray;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+       button{
+        background-color: black;
+        color: #fff;
+        border-radius: 50px;
+        padding: 10px 50px 10px 50px ;
+        margin-top: 30px;
+        margin-left: 400px;
+       }
+}
+
+
+
+.hero__inner{
+       margin-left: 400px;
+margin-top: 70px;
+
+    display: flex;
+   gap: 20px;
+h3{
+    font-size: 50px;
+  
+
+}
+p{
+    color: gray;
+}
+
+}
+
+.hero__wrapper{
+    display: flex;
+    background: #F2F0F1;
+
+}
+
+
+.hero__img{
+    margin-left: 700px;
+}

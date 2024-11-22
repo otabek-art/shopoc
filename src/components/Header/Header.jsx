@@ -1,21 +1,23 @@
 import React from 'react'
 import './Header.scss'
-import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
   <>
-  <header className="header">
+  <section className="header">
     <div className="container">
-        <nav>
-            <div className="menu">
-                <Link to={'/'}>Home</Link>
-                <Link to={'/blog'}>Blog</Link>
-                <Link to={'/contacts'}>Contacts</Link>
-            </div>
-        </nav>
+        <div className="header__wrap">
+            <img src="./SHOP.CO.svg" alt="" />
+            <p>Shop</p>
+            <p>On Sale</p>
+            <p>New Arrivals</p>
+            <p>Brands</p>
+            <input img placeholder='Search for products...' type="text" />
+            <img src="./icon-1.svg" alt="" />
+            <img src="./icon-2.svg" alt="" />
+        </div>
     </div>
-  </header>
+  </section>
   </>
   )
 }
