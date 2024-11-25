@@ -1,0 +1,47 @@
+.happy__wrap{
+
+display: flex;
+gap: 18px;  
+justify-content: space-between;
+
+    p{
+        color: gray;
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+
+
+}
+
+.happy__cards{
+    display: flex;
+gap: 30px;  
+}
+
+.happy__card1{
+    border: 1px solid gray;
+    max-width: 400px;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.happy__card2{
+    border: 1px solid gray;
+    max-width: 400px;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.happy__card3{
+    border: 1px solid gray;
+    max-width: 400px;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 30px;
+}
