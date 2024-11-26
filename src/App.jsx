@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Style from './components/Style/Style'
 import Happy from './components/happy/Happy'
+import Sale from './pages/Sale'
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
    <Header/>
 <Routes>
   <Route path='/' element={<Home/>}/>
+  <Route path='/sale' element={<Sale/>}/>
+
 </Routes>
 <Style/>
 <Happy/>
