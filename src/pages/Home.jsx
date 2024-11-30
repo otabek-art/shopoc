@@ -6,7 +6,7 @@ import Category from '../components/Category/Category'
 const Home = () => {
   return (
 <>
-<h1></h1>
+
 <Hero/>
 <Brands/>
 <Category/>

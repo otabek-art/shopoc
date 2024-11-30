@@ -4,7 +4,10 @@ import SaleWrap from '../components/Style/SaleWrap/SaleWrap'
 const Sale = () => {
   return (
 <>
+
 <SaleWrap/>
+
+
 </>
   )
 }

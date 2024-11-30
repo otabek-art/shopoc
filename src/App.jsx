@@ -9,6 +9,7 @@ import Home from './pages/Home'
 import Style from './components/Style/Style'
 import Happy from './components/happy/Happy'
 import Sale from './pages/Sale'
+import SinglePage from './pages/SinglePage'
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
 <Routes>
   <Route path='/' element={<Home/>}/>
   <Route path='/sale' element={<Sale/>}/>
-
+  <Route path='/product/:id' element={<SinglePage/>}/>
 </Routes>
 <Style/>
 <Happy/>
