@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css'
+import './App.scss'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import Section from './components/Section/Section'
@@ -10,6 +10,8 @@ import Style from './components/Style/Style'
 import Happy from './components/happy/Happy'
 import Sale from './pages/Sale'
 import SinglePage from './pages/SinglePage'
+import SignPage from './pages/SignPage'
+import LoginPage from './pages/LoginPage'
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
   <Route path='/' element={<Home/>}/>
   <Route path='/sale' element={<Sale/>}/>
   <Route path='/product/:id' element={<SinglePage/>}/>
+  <Route path='/signup' element={<SignPage/>}/>
+  <Route path='/login' element={<LoginPage/>}/>
 </Routes>
 <Style/>
 <Happy/>
