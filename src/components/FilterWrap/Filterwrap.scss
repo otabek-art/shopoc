@@ -1,0 +1,149 @@
+.filter {
+    background-color: #fff;
+    max-width: 300px;
+    border: 1px solid lightgray;
+    padding: 22px;
+    border-radius: 20px;
+    >div{
+        border-bottom: 1px solid lightgray;
+        margin-bottom: 24px;
+        padding-bottom: 24px;
+    }
+}
+.filter__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.filter__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+}
+.filter__price {
+}
+.filter__colors {
+}
+.filter__colors-wrap {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    place-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    
+    div{
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        background-color: #00C12B;
+    }
+}
+.filter__size {
+
+}
+.filter__size-wrap {
+margin-top: 20px;
+display: flex;
+gap: 8px;
+flex-wrap: wrap;
+
+    button{
+        padding: 10px 20px;
+
+        max-width: 20px;
+        display: flex;
+        border-radius: 62px;
+        border: none;
+        color: rgba(0, 0, 0, 0.49);
+        cursor: pointer;
+        transition: 0.5;
+
+        &:hover{
+            background-color: black;
+            color: #fff;
+        }
+
+    }
+}
+.filter__dress {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.filter__btn {
+padding: 14px;
+width: 100%;
+background-color: black;
+color: #fff;
+border-radius: 62px;
+border: none;
+
+}
+
+
+// DOUBLE RANGE INPUT
+
+.double-range {
+    // width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+}
+
+.range-container {
+    position: relative;
+    height: 40px;
+}
+
+.range-input {
+    position: absolute;
+    top: 10px;
+    height: 6px;
+    left: 0;
+    width: 100%;
+    border-radius: 20px;
+    pointer-events: none; /* Запрещаем перекрытие ползунков */
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    background-color: #F0F0F0;
+}
+
+.range-input::-webkit-slider-thumb {
+    pointer-events: auto; /* Включаем взаимодействие */
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    // scale: 2;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+.range-progress {
+    position: absolute;
+    top: 20px;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.range-values {
+    display: flex;
+    justify-content: space-evenly;
+    // margin-top: 10px;
+    font-weight: bold;
+}

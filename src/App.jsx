@@ -12,6 +12,7 @@ import Sale from './pages/Sale'
 import SinglePage from './pages/SinglePage'
 import SignPage from './pages/SignPage'
 import LoginPage from './pages/LoginPage'
+import CatalogPage from './pages/CatalogPage'
 
 const App = () => {
   return (
@@ -24,6 +25,8 @@ const App = () => {
 
   <Route path='/signup' element={<SignPage/>}/>
   <Route path='/login' element={<LoginPage/>}/>
+  <Route path='/catalog' element={<CatalogPage/>}/>
+
 </Routes>
 <Style/>
 <Happy/>
